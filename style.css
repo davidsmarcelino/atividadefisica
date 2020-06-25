@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+html *{
+	box-sizing: border-box;
+}
+.h1 {
+	background-color: orange;
+	padding: 120px 20px;
+	background-image: url("img/imagem-7.jpg");
+	background-position: center;
+	background-size: cover;
+	font-size: 48px;
+	text-shadow: 3px 3px #eee;
+	text-align: center;
+	border-radius: 8px;
+	border:0;
+}
+.menu {
+	display: grid;
+	background-color: white;
+border:0;
+}
+ol {
+	background-color: white;
+	list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+	border-radius: 8px;
+	
+}
+li {
+	float:left;
+	
+}
+li a {
+
+    color: #000;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+
+	
+}
+	li a:hover {
+    background-color: #919edb;
+	color: white;
+	border-radius: 40px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+div {
+  background-color: pink;
+  border: 2px solid #000;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 10px;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+
+  background-position: center; /* posisão da imagem de fundo */
+  background-size: cover; /* tamano da imagem de fundo */
+  background-repeat: no-repeat; /* repetição da imagem de fundo */
+}
+/* A classe .flex transforma o body em uma caixa flexível  */
+body.flex {
+  display: flex;
+  align-items: center; /* alinha o conteúdo verticalmente*/
+  justify-content: center; /* alinha o conteúdo horizontalmente*/
+  height: 100vh;
+}
+/* A classe .grid transforma o main em um caixa tipo grade */
+main.grid {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px;
+  grid-gap: 20px;
+}
+img {
+	max-width: 100%;
+	border-radius: 8px;
+}
+
+.caixa{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+	text-align: justify;
+}
+.cartao {
+	background-color: #87CEFA;
+	padding: 20px;
+	border-radius: 8px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#titulo-principal {
+  margin: 44px 0;
+  color: blue;
+}
+#card {
+  border: 4px solid #424242;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  padding: 22px;
+}
+.container {
+  max-width: 33.33%;
+  margin: auto;
+}
+.btn {
+	background-color: 	white;
+	color: #000;
+	padding: 10px 20px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 20px;
+	transition: all 0.4;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn:hover {
+	Background-color:	#919edb;
+	color: white;
+}
+.fa {
+	color: #424242;
+  padding: 30px;
+  font-size: 70px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  float: right;
+}
+.fa:hover {
+  
+  color: #000;
+
+}
+small {
+	display: block;
+	background-color: #87CEFA;
+	color: #fff;
+	font-size: 20px;
+	padding: 30px 20px;
+	margin-top: 20px;
+	border-radius: 8px;
+}
